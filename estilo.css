@@ -65,7 +65,7 @@ justify-content: space-between;
     width: 80%;
 }
 #redondo{
-    background-color: aqua;
+    background-color:fuchsia;
     border-radius: 50%;
     display:scroll;
         position:fixed;
@@ -78,5 +78,83 @@ justify-content: space-between;
         align-items: center;
         
 }
+#variosprincipal{
+    width: 100%;
+    background-color: aqua;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+#varios{
+    width: 100%;
+    height:auto;
+    position:relative;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .contenedor_imagen_texto{
+    width: 33%;;
+    height:auto;
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    overflow:hidden;
+    text-align: center;
+    }
+    .imagen, .texto{
+    width:100%;
+    height:auto;
+    position:relative;
+    display:inline;
+    }
+    .texto{
+        height:auto;
+        text-align:center
+        }
+        .contenedor_imagen_texto2{
+            width: 50%;
+            height:auto;
+            position:relative;
+            display:inline-block;
+            vertical-align:top;
+            overflow:hidden;
+            text-align: center;
+            }
+#servicios{
+    background-color: darkkhaki;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 
+}
+.servicios1{
+  
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+label{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px
+}
+.testoservicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
